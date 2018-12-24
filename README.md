@@ -52,7 +52,7 @@ All commands are sent over serial:
 | `clear` | Clear the serial console. | 
 | `clear board` | Clear the board with `false`. |
 | `random` | Fill the board with random values. |
-| `set x y [TRUE | FALSE]` | Set the cell at `(x, y)`, where both `x` and `y` are positive integers, to either `TRUE` or `FALSE`. |
+| `set x y [TRUE, FALSE]` | Set the cell at `(x, y)`, where both `x` and `y` are positive integers, to either `TRUE` or `FALSE`. |
 | `free` | Print the amount of free memory in bytes. |
 
 **Note:** Changes between game modes, with the exception of `Text` and `Pong` will start with the state of the board from the last game mode, unless cleared or randomized beforehand.

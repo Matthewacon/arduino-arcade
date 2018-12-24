@@ -162,7 +162,7 @@ void handle_input() {
    board->clear_board();
   } else if (input.indexOf("Text") != -1) {
    DA();
-   board = (BoolBoard*)malloc(sizeof(Pong));
+   board = (BoolBoard*)malloc(sizeof(Text));
    board = new (board) Text(LENGTH, WIDTH, "Test", 4, seed_func, rng_func);
    board->clear_board();
   } else {

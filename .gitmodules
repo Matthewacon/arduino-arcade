@@ -1,0 +1,3 @@
+[submodule "turing-box"]
+	path = turing-box
+	url = git@github.com:Matthewacon/turing-box.git

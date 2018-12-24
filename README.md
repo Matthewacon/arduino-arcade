@@ -1,4 +1,4 @@
-# arduino_arcade
+# arduino-arcade
 An implementation of the games and cellular automata in [turing-box](https://github.com/Matthewacon/turing-box) over serial and an LED array.
 
 ## Requirements
